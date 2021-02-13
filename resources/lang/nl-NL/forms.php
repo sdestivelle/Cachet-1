@@ -154,7 +154,7 @@ return [
             'about-this-page'                       => 'Over deze pagina',
             'days-of-incidents'                     => 'Hoeveel dagen moeten incidenten getoond worden?',
             'time_before_refresh'                   => 'Statuspagina verversingssnelheid (in seconden)',
-            'major_outage_rate'                     => 'Major outage threshold (in %)',
+            'major_outage_rate'                     => 'Drempelwaarde voor grote onderbreking (in %)',
             'banner'                                => 'Banner afbeelding',
             'banner-help'                           => 'Bij voorkeur geen afbeeldingen breder dan 930 pixels uploaden',
             'subscribers'                           => 'Bezoekers toestaan om te abonneren op e-mail notificaties?',
@@ -168,7 +168,7 @@ return [
         'analytics' => [
             'analytics_google'       => 'Google Analytics-code',
             'analytics_gosquared'    => 'GoSquared Analytics-code',
-            'analytics_piwik_url'    => 'URL van je Piwik installatie (zonder http(s)://)',
+            'analytics_piwik_url'    => 'URL of your Piwik instance',
             'analytics_piwik_siteid' => 'Site-id van Piwik',
         ],
         'localization' => [
@@ -180,8 +180,8 @@ return [
         'security' => [
             'allowed-domains'           => 'Toegestane domeinen',
             'allowed-domains-help'      => 'Door komma\'s gescheiden. Het hierboven ingestelde domein is automatisch standaard toegelaten.',
-            'always-authenticate'       => 'Always authenticate',
-            'always-authenticate-help'  => 'Require login to view any Cachet page',
+            'always-authenticate'       => 'Altijd aanmelden',
+            'always-authenticate-help'  => 'Aanmelding vereist om ieder Cachet pagina te bekijken',
         ],
         'stylesheet' => [
             'custom-css' => 'Aangepaste Stylesheet',
@@ -227,6 +227,11 @@ return [
 
     'general' => [
         'timezone' => 'Selecteer Tijdzone',
+    ],
+
+    'seo' => [
+        'title'        => 'SEO Title',
+        'description'  => 'SEO Description',
     ],
 
     // Buttons
